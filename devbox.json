@@ -1,6 +1,10 @@
 {
   "packages": [
-    "nodejs@latest"
+    "nodejs@latest",
+    "cookiecutter@latest",
+    "flyctl@latest",
+    "heroku@latest",
+    "stripe-cli@latest"
   ],
   "shell": {
     "init_hook": [

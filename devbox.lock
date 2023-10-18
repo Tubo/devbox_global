@@ -1,6 +1,66 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "cookiecutter@latest": {
+      "last_modified": "2023-09-29T09:08:59Z",
+      "resolved": "github:NixOS/nixpkgs/bd9b686c0168041aea600222be0805a0de6e6ab8#cookiecutter",
+      "source": "devbox-search",
+      "version": "2.3.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/h489v23g750d7yyiygx3fxzm48jj60bv-python3.10-cookiecutter-2.3.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/vq74kacfy1rlww4kd69gvzf4xklazcb7-python3.10-cookiecutter-2.3.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/9fczkpf9cznj6a73xciifhcgxzqrsx7h-python3.10-cookiecutter-2.3.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/wvsskl5hbgm5bync7dl1sp09z00kxg1d-python3.10-cookiecutter-2.3.0"
+        }
+      }
+    },
+    "flyctl@latest": {
+      "last_modified": "2023-10-11T07:26:37Z",
+      "resolved": "github:NixOS/nixpkgs/01441e14af5e29c9d27ace398e6dd0b293e25a54#flyctl",
+      "source": "devbox-search",
+      "version": "0.1.104",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/wm35134yllshbbdbckyiqrgykkg9g0m8-flyctl-0.1.104"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/4wjqvkxvsgqlypipa2qxz1gb96p631l0-flyctl-0.1.104"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/gfw70kmz7bw7nw6igcp9pi7y5km5n87i-flyctl-0.1.104"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/lanzb0pijhyn1ksd4j61h4a3qlhzb9kp-flyctl-0.1.104"
+        }
+      }
+    },
+    "heroku@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#heroku",
+      "source": "devbox-search",
+      "version": "7.66.4",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/gbfhly16xxpbrm7lxs3pf1rrz2wn51dk-heroku-7.66.4"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/xsrq22z4fgh2k0gbp2am16np80ppcj23-heroku-7.66.4"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/hnm3lpbixl7bm4vm3a3bh91brmi17hi7-heroku-7.66.4"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/8kf9lc045kpr6ywrc5lpwhhp75ln0azb-heroku-7.66.4"
+        }
+      }
+    },
     "nodejs@latest": {
       "last_modified": "2023-09-29T17:45:58Z",
       "resolved": "github:NixOS/nixpkgs/c182df2e68bd97deb32c7e4765adfbbbcaf75b60#nodejs_20",
@@ -18,6 +78,26 @@
         },
         "x86_64-linux": {
           "store_path": "/nix/store/qs5b5msb3jj13140k7ffqx39bphanghg-nodejs-20.8.0"
+        }
+      }
+    },
+    "stripe-cli@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#stripe-cli",
+      "source": "devbox-search",
+      "version": "1.17.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/mmspx9gwz715gqa5gci6hxavmixxw2gp-stripe-cli-1.17.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/jd5y57pq4va1gfmv6jb4xb7300jf61gz-stripe-cli-1.17.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/g7s8qv2sfifh554vl5bihb7gha5bxw99-stripe-cli-1.17.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/4rml65raprgkp1g12yayrbmvhvxdvhf5-stripe-cli-1.17.2"
         }
       }
     }
